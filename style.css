@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    background-color: #E6E6E6;
+   
 }
 
 /* Header menu create start */
@@ -35,6 +35,45 @@ body{
     /* Header menu create End */
 
     /* section 01 start */
+.container{
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-write{
+    width: 50%;
+}
+.section-write h1{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.section-image{
 
+    background-image: url(images/preview-.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-image img{
+    width: 85%;
+    margin-top: 20px;
+}
+.section-write a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    padding: 8px 12px;
+    border-radius: 20px;
+   
+
+}
+.fa-chevron-right{
+    font-size: 20px;
+    margin-left: 10px;
+    
+   
+}
 
     /* section 01 End */
