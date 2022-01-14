@@ -1,0 +1,40 @@
+body{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E6E6;
+}
+
+/* Header menu create start */
+.navbar{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #6e6e6e;
+
+}
+.menu ul span{
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+.menu ul span a{
+    color:#6e6e6e;
+}
+
+    /* Header menu create End */
+
+    /* section 01 start */
+
+
+    /* section 01 End */
