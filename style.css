@@ -78,7 +78,46 @@ body{
 
     /* section 01 End */
 
+
+
     /* section 02 area start */
+.product{
+    width: 300px;
+    height: 450px;
+    border: 2px solid darkcyan;
+    padding: 8px;
+}
+.product-header{
+    font-size: 30px;
+    color: hotpink;
+    text-align: center;
+}
+
+.product-details .header{
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+.product-details p{
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+    margin: 0;
+    
+}
+.price>p{
+    font-size: 23px;
+    padding: 10px 0;
+    color: black;
+
+}
+.star-icon{
+    margin-right: 10px;
+}
+.star-icon .fas{
+    color: gold;
+}
 
 
     /* section 02 area End */
