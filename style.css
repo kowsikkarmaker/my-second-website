@@ -92,8 +92,10 @@ body{
     width: 300px;
     height: 450px;
     border: 2px solid darkcyan;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 10px;
     margin-top: 20px;
+    box-shadow: 40px red;
 }
 .product-header{
     font-size: 30px;
