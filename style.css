@@ -153,11 +153,20 @@ body{
     /* section 02 area End */
 
     /* secton 03 start */
+
+.services{
+    display: grid ;
+    grid-template-columns: repeat(3, 340px);
+    justify-content: space-between;
+   
+    
+}
 .service{
-    width: 300px;
+    width: 335px;
     display: flex;
     border: 1px solid green;
     padding: 0%;
+    margin-top: 20px;
     
 }
 .service-img img{
