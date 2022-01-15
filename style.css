@@ -152,7 +152,32 @@ body{
 
     /* section 02 area End */
 
+    /* secton 03 start */
+.service{
+    width: 300px;
+    display: flex;
+    border: 1px solid green;
+    padding: 0%;
+    
+}
+.service-img img{
+        width: 70px;
+        border-radius: 100%;
+        border: 2px solid red;
+        margin-top: 50px;
+        margin-right: 10px;
 
+    }
+    .service-details h1{
+        font-size: 20px;
+        margin-bottom: 0%;
+    }
+    .service-details p{
+        font-size: 13px;
+    }
+
+
+    /* secton 03 End */
 
     /* footer area start */
 
