@@ -289,16 +289,31 @@ body{
 
     /* tablet devices */
 
-    @media only screen and(min-width:1024px) {
+    @media only screen and (min-width: 688px) and (max-width:992px) {
         body{
-            width: 80%;
+          width: 80%;
         }
-        .container{
+        .container-2{
             width: 100%;
         }
         .prducts{
-            display: block;
-            grid-template-columns: repeat(2, 1fr);
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
         }
 
+        .product{
+            margin-top: 40px;
+            margin-right: 40px;
+        }
+
+        .container-3{
+            width: 100%;
+            
+        }
+        .services{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
     }
