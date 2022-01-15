@@ -77,3 +77,41 @@ body{
 }
 
     /* section 01 End */
+
+    /* section 02 area start */
+
+
+    /* section 02 area End */
+
+
+
+    /* footer area start */
+
+.footer-area{
+    height: 200px;
+    background-color: rgb(2, 2, 48);
+   
+       
+}
+.footer-write{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+   
+}
+.footer-write h1{
+    font-size: 20px;
+   
+}
+   
+
+.footer-icon a{
+    font-size: 20px;
+    background-color: rgba(241, 237, 231, 0.171);
+    color: white;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin-right: 10px;
+
+}
+    /* footer area End */
