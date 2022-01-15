@@ -63,7 +63,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: 15px;
-    background-color: red;
+    background-color: rgb(255, 75, 165);
     padding: 8px 12px;
     border-radius: 20px;
    
@@ -81,21 +81,26 @@ body{
 
 
     /* section 02 area start */
-
+.container-2{
+    margin-bottom: 50px;
+    padding: 70px;
+}
 .prducts{
     display: grid ;
     grid-template-columns: repeat(3, 340px);
     justify-content: center;
-    margin-bottom: 50px;
+    
 }   
 .product{
     width: 300px;
     height: 450px;
-    border: 2px solid darkcyan;
+   
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
-    box-shadow: 40px red;
+    box-shadow: 10px 8px 12px 5px gainsboro,
+    -10px -8px 12px 5px gainsboro;
+    
 }
 .product-header{
     font-size: 30px;
@@ -128,6 +133,21 @@ body{
 .star-icon .fas{
     color: gold;
 }
+.learn-more {
+    float: right;
+   
+}
+.learn-more a{
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 75, 165); 
+    font-weight: bold;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
 
 
     /* section 02 area End */
@@ -137,7 +157,7 @@ body{
     /* footer area start */
 
 .footer-area{
-    height: 200px;
+    height: 220px;
     background-color: rgb(2, 2, 48);
    
        
@@ -152,7 +172,10 @@ body{
     font-size: 20px;
    
 }
-   
+ 
+.footer-write p{
+    font-size: 13px;
+}
 
 .footer-icon a{
     font-size: 20px;
