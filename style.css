@@ -81,11 +81,19 @@ body{
 
 
     /* section 02 area start */
+
+.prducts{
+    display: grid ;
+    grid-template-columns: repeat(3, 340px);
+    justify-content: center;
+    margin-bottom: 50px;
+}   
 .product{
     width: 300px;
     height: 450px;
     border: 2px solid darkcyan;
     padding: 8px;
+    margin-top: 20px;
 }
 .product-header{
     font-size: 30px;
