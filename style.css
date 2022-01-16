@@ -82,7 +82,7 @@ body{
 .fa-chevron-right{
     font-size: 20px;
     margin-left: 5px;
-    transition: margin-left 1s;
+    transition: 1s;
    
 }
 .section-write:hover .fa-chevron-right{
